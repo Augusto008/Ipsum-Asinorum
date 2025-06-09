@@ -1,0 +1,17 @@
+/* ================================================================================================== */
+/* ====                                       Header Styles                                      ==== */
+/* ================================================================================================== */
+
+.c-header {
+  padding: var(--spacing-unit) 1rem;
+  text-align: center;
+  background-color: var(--color-primary);
+  border-bottom: 1px solid #583c0c5b;
+}
+
+.c-header__title {
+  font-family: var(--font-c-header-title);
+  font-size: 4rem;
+  margin: 0;
+  color: rgba(16, 16, 16, 0.84);
+}

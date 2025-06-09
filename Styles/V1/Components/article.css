@@ -1,0 +1,68 @@
+/* ================================================================================================== */
+/* ====                                      Article Styles                                      ==== */
+/* ================================================================================================== */
+
+.c-article {
+  min-height: fit-content;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+  text-align: center;
+  display: flow-root;
+}
+
+.c-article--standard {
+  background-color: rgba(255, 246, 234, 0.2);
+  transition: 0.4s;
+  padding: 1rem;
+}
+
+.c-article--featured,
+.c-article--standard:hover {
+  background-color: rgba(255, 246, 234, 0.6);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.c-article--standard:hover {
+  transition: 0.4s;
+}
+
+.c-article__cover {
+  position: center;
+  max-width: 100%;
+  width: auto;
+  max-height: 100%;
+  height: 180px;
+  shape-outside: margin-box;
+  margin: 10px;
+  float: left;
+  border-radius: 4px;
+}
+
+.c-article__title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #1f1303c4;
+  text-align: left;
+}
+
+.c-article__body {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.c-article__footer {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-article__meta {
+  font-style: italic;
+}

@@ -1,0 +1,19 @@
+/* ================================================================================================== */
+/* ====                                       Main Patterns                                      ==== */
+/* ================================================================================================== */
+
+:root {
+  --color-primary: #a3855f69;
+  --color-secondary: #FFCA28;
+  --color-text: #1f130356;
+  --color-muted: #1f1303a9;
+
+  --font-body: 'Kalam Light', sans-serif;
+  --font-c-header-title: 'Patrick Hand', sans-serif;
+  --font-c-nav-items: 'Patrick Hand SC', sans-serif;
+  --font-u-title: 'Patrick Hand', sans-serif;
+  --font-u-title-lg: 'Kalam Bold', sans-serif;;
+  --font-article-body: 'Coming Soon', 'Open Sans', sans-serif;
+
+  --spacing-unit: 1rem;
+}

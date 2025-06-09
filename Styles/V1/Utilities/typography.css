@@ -1,0 +1,31 @@
+/* ================================================================================================== */
+/* ====                                         Typography                                       ==== */
+/* ================================================================================================== */
+
+.u-title-xl {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  font-weight: 800;
+  color: #555;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3),
+    -1px -1px 2px rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  padding: 5px;
+}
+
+.u-title-lg {
+  font-family: var(--font-u-title-lg);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.u-text-muted {
+  color: var(--color-muted);
+}
+
+.u-meta-author,
+.u-meta-date {
+  display: inline-block;
+  margin-right: 0.5rem;
+}

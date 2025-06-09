@@ -1,0 +1,18 @@
+/* ================================================================================================== */
+/* ====                               Theme: Paper background look                               ==== */
+/* ================================================================================================== */
+
+body.theme-default {
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  line-height: 1.6;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 12) 1px, transparent 1px),
+    url('../../../Public/Images/Background/Textures/old_paper_texture.png');
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: auto, 100vw;
+  color: #3c2f2f;
+}
