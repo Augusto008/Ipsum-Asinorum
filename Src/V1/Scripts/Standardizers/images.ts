@@ -1,4 +1,4 @@
-const STANDARD = "./../../../Public/Images/Icons/icon-wbg2.png";
+const STANDARD = "./../../../../../Public/Images/Icons/icon-wbg2.png";
 
 export function altImg() {
   const images = document.querySelectorAll<HTMLImageElement>('img');
