@@ -34,8 +34,9 @@
   position: center;
   max-width: 100%;
   width: auto;
-  max-height: 100%;
-  height: 180px;
+  max-height: 20vw;
+  height: 20vh;
+  width: auto;
   shape-outside: margin-box;
   margin: 10px;
   float: left;
@@ -66,3 +67,8 @@
 .c-article__meta {
   font-style: italic;
 }
+
+
+/* ================================================================================================== */
+/* ====                                       Responsiveness                                     ==== */
+/* ================================================================================================== */

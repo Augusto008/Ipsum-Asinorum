@@ -9,7 +9,7 @@
   margin-top: 0.5rem;
 }
 
-.c-nav__item {
+.c-nav__item, .c-nav__item__selected {
   font-family: var(--font-c-nav-items);
   font-size: 1.32rem;
   text-decoration: none;
@@ -17,7 +17,21 @@
   font-weight: 600;
 }
 
-.c-nav__item:hover {
+.c-nav__item:hover, .c-nav__item__selected {
   text-decoration: underline;
   color: rgb(32, 32, 32);
 }
+
+.c-nav__intro {
+  text-decoration: none;
+  color: black;
+}
+
+.c-nav__intro:hover {
+  text-shadow: black 0.5px 0.5px;
+}
+
+
+/* ================================================================================================== */
+/* ====                                       Responsiveness                                     ==== */
+/* ================================================================================================== */
