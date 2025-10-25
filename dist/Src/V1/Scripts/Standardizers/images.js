@@ -1,4 +1,4 @@
-const STANDARD = "../../../../Public/Images/Icons/icon-wbg2.png";
+const STANDARD = "https://augusto008.github.io/Ipsum-Asinorum/Public/Images/Icons/icon-wbg2.png";
 export function altImg() {
     const images = document.querySelectorAll('img');
     images.forEach(img => {
