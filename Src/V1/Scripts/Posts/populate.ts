@@ -23,7 +23,7 @@ export function addPost() {
 		addImg.id = countId + "Img";
 		addImg.alt = "Article Cover";
 		addImg.className = "c-article__cover";
-		addImg.src = "./../../../Public/Images/asno.png";
+		addImg.src = "https://augusto008.github.io/Ipsum-Asinorum/Public/Images/asno.png";
 
 		addTitle.id = countId + "Title";
 		addTitle.className = "c-article__title u-title-lg";
