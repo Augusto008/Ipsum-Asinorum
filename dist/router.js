@@ -56,7 +56,7 @@ function loadRoute() {
                     target = "About";
                     break;
                 default:
-                    console.log("Default");
+                //console.log("Default");
             }
             mainNavigation(target);
             //console.log(hash);
