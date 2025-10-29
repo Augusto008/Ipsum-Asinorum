@@ -2,6 +2,16 @@
 /* ====                                         Typography                                       ==== */
 /* ================================================================================================== */
 
+h1 {
+  text-align: center;
+}
+
+p {
+  word-wrap: break-word;
+  hyphens: auto;
+  text-align: justify;
+}
+
 .u-title-xl {
   font-family: var(--font-title);
   font-size: 2rem;
